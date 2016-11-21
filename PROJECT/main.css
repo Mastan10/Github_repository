@@ -1,0 +1,79 @@
+ a{
+    text-decoration:none; //--- text underline removed--//default underline removed..
+}
+ #wrapper{
+    max-width:940px;
+     margin:0 auto ;    // under div attribute we used Id selector with wrapper which collects element together and uniquely changes the id selector..
+     padding: 0 5%;     // margin and padding to the first and 0 and auto padding for corners and padding top and bottom should 0 and left and right corner 5//
+}
+ #logo{
+     text-align: center;   //logo to the header make it like id="logo" which means we centerd the test..//
+     margin: 0 ;
+ }
+ 
+ /*********************
+General
+ *********************/
+
+ #wrapper{
+    max-width:940px;
+     margin:0 auto ;
+     padding: 0 5%;
+}
+
+
+ a{
+    text-decoration:none;
+ }
+
+
+/*********************
+HEADING
+ *********************/
+
+#logo{
+    text-align: center;
+    margin: 0 ;
+ }
+
+
+/*********************
+COLORS
+ *********************/
+
+/** site body**/
+ body{
+    background-color: white;
+    color: gray;
+ }
+
+ header{
+     background-color: green;
+     border-color: chocolate;
+ }
+
+/** Logo Text**/
+ h1,h2{
+     color: white;
+ }
+
+
+/** Links**/
+ a{
+    background-color: #6ab47b;
+ }
+
+/** nav background on mobile devices**/
+ nav{
+     background-color: #6ab47b;
+ }
+ /** color for nav links**/
+ nav a,nav a:visited {
+     color : white;
+ }
+
+/** selected nav link color AND HOVER **/ /** For blink of elements**/
+ nav a.selected ,nav a:hover {
+     color:green;
+ }
+
